@@ -1,0 +1,268 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug protoc-gen-grpc-swift",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/protoc-gen-grpc-swift",
+            "preLaunchTask": "swift: Build Debug protoc-gen-grpc-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release protoc-gen-grpc-swift",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/protoc-gen-grpc-swift",
+            "preLaunchTask": "swift: Build Release protoc-gen-grpc-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug RouteGuideServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/RouteGuideServer",
+            "preLaunchTask": "swift: Build Debug RouteGuideServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release RouteGuideServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/RouteGuideServer",
+            "preLaunchTask": "swift: Build Release RouteGuideServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug RouteGuideClient",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/RouteGuideClient",
+            "preLaunchTask": "swift: Build Debug RouteGuideClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release RouteGuideClient",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/RouteGuideClient",
+            "preLaunchTask": "swift: Build Release RouteGuideClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug ReflectionServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/ReflectionServer",
+            "preLaunchTask": "swift: Build Debug ReflectionServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release ReflectionServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/ReflectionServer",
+            "preLaunchTask": "swift: Build Release ReflectionServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug PacketCapture",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/PacketCapture",
+            "preLaunchTask": "swift: Build Debug PacketCapture"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release PacketCapture",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/PacketCapture",
+            "preLaunchTask": "swift: Build Release PacketCapture"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug HelloWorldServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/HelloWorldServer",
+            "preLaunchTask": "swift: Build Debug HelloWorldServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release HelloWorldServer",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/HelloWorldServer",
+            "preLaunchTask": "swift: Build Release HelloWorldServer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug HelloWorldClient",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/HelloWorldClient",
+            "preLaunchTask": "swift: Build Debug HelloWorldClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release HelloWorldClient",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/HelloWorldClient",
+            "preLaunchTask": "swift: Build Release HelloWorldClient"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug GRPCPerformanceTests",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/GRPCPerformanceTests",
+            "preLaunchTask": "swift: Build Debug GRPCPerformanceTests"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release GRPCPerformanceTests",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/GRPCPerformanceTests",
+            "preLaunchTask": "swift: Build Release GRPCPerformanceTests"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug GRPCInteroperabilityTests",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/GRPCInteroperabilityTests",
+            "preLaunchTask": "swift: Build Debug GRPCInteroperabilityTests"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release GRPCInteroperabilityTests",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/GRPCInteroperabilityTests",
+            "preLaunchTask": "swift: Build Release GRPCInteroperabilityTests"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug GRPCConnectionBackoffInteropTest",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/GRPCConnectionBackoffInteropTest",
+            "preLaunchTask": "swift: Build Debug GRPCConnectionBackoffInteropTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release GRPCConnectionBackoffInteropTest",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/GRPCConnectionBackoffInteropTest",
+            "preLaunchTask": "swift: Build Release GRPCConnectionBackoffInteropTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Debug Echo",
+            "program": "${workspaceFolder:grpc-swift}/.build/debug/Echo",
+            "preLaunchTask": "swift: Build Debug Echo"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:grpc-swift}",
+            "name": "Release Echo",
+            "program": "${workspaceFolder:grpc-swift}/.build/release/Echo",
+            "preLaunchTask": "swift: Build Release Echo"
+        }
+    ]
+}
